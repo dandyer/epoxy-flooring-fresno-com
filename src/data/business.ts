@@ -9,6 +9,7 @@ export interface Business {
   formspreeId: string;
   serviceArea: string;
   licenseNumber: string;
+  analyticsId: string;
 }
 
 export const business: Business = {
@@ -28,6 +29,7 @@ export const business: Business = {
   satisfaction: 98,
   social: { facebook: "", instagram: "", yelp: "" },
   formspreeId: "",
+  analyticsId: "site_d69f2dc4",
   serviceArea: "Fresno, Clovis, Madera, Visalia, Tulare, Sanger, Selma",
   licenseNumber: "#1082347",
 };
